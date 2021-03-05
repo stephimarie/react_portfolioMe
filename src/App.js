@@ -1,6 +1,8 @@
 import './App.css';
 // import Button from 'react-bootstrap/Button';
 import Navbar from './components/navbar';
+import Contacts from './pages/contact';
+
 
 
 function App() {
