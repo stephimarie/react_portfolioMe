@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-// import myImage from '../image/IMG_0877.jpg';
-// import Resume from '../image/Resume.pdf'
+import myImage from '';
+import Resume from ''
 
 
 class About extends Component {
