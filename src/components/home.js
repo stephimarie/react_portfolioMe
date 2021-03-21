@@ -15,16 +15,11 @@ class Home extends Component {
                     <a href="https://github.com/stephimarie" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true" />
                     </a>
-
                     <a href="https://www.linkedin.com/in/stephanie-mccandless-76869139/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin-square" aria-hidden="true" />
                     </a>
-
                     </div>
-
                  </div>
-
-
             </Grid>
         </div>
     );
