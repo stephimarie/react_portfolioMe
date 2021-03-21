@@ -47,3 +47,11 @@
         word-spacing: 2px;
         color: black;
     }
+    .social-media {
+        justify-content: space-between;
+        width: 20%;
+        display: flex;
+        margin: auto;
+        padding-top: 10px;
+        
+    }
