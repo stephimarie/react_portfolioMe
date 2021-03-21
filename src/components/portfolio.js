@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Img1 from "../image/Yoda-Me-Astrology.png";
+import Img1 from "../images/Yoda_Me.png";
 import Img2 from "../images/password-wizard.png";
 import Img3 from "../images/inhuman_murder_mystery.png";
-
 import { Cell, Grid, Card, CardTitle, CardActions } from 'react-mdl';
 
 class Portfolio extends Component {
@@ -56,3 +55,5 @@ class Portfolio extends Component {
         );
     };
 }
+
+export default Portfolio;
