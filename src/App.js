@@ -16,8 +16,15 @@ class App extends Component {
              <Link to="/contact">Contact</Link >
              <Link to="/portfolio">Portfolio</Link>
            </Navigation>
-
           </Header>
+          <Drawer title="Menu">
+            <Navigation>
+              <Link to="/">Home</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/portfolio">Portfolio</Link>
+            </Navigation>
+
+          </Drawer>
         </Layout>
       </div>
     );
