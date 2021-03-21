@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Img1 from "../image/Yoda-Me-Astrology.png";
+import Img4 from "../images/password-wizard.png";
 import { Cell, Grid, Card, CardTitle, CardActions } from 'react-mdl';
 
 class Portfolio extends Component {
@@ -17,6 +18,13 @@ class Portfolio extends Component {
                             <br />
                             <a href="https://stephimarie.github.io/Yoda_me_astrology/" rel="noreferrer" target="_blank">Live link</a>
                         </CardActions>
+                    </Card>
+                </Cell>
+                <Cell col={3}>
+                    <Card shadow={0} style={{width: '320px', margin: 'auto', height: '320px'}}>
+                        <img src={Img2} />
+                    
+
                     </Card>
                 </Cell>
                 </Grid>      
