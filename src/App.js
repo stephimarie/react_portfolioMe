@@ -23,8 +23,18 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
               <Link to="/portfolio">Portfolio</Link>
             </Navigation>
-
           </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main/>
+          </Content>
+          <Footer size="mega">
+            <FooterSection type="middle">
+              <FooterLinkList>
+                <p>Stephanie Marie&copy;</p>
+              </FooterLinkList>
+            </FooterSection>
+          </Footer>
         </Layout>
       </div>
     );
