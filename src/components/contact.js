@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import myImage from '../image/IMG_0877.jpg';
-import Resume from '../image/Resume.pdf'
+// import myImage from '../image/IMG_0877.jpg';
+// import Resume from '../image/Resume.pdf'
 
 
 class About extends Component {
@@ -12,7 +12,13 @@ class About extends Component {
                 <Cell col={6}>
                     <img style={{height:'250px', width:'200px', paddingTop:'20px', borderRadius:'50%' }} src={myImage} />
                     <h2 style={{fontFamily:'Times'}}>Stephanie Marie</h2>
-                    <p> My name is Stephanie Marie. I'm So Cal native, and have always been drawn to computers since I was 9 years old. I'm currently studying coding at UC Berkeley extension coding bootcamp. I can't wait to get out there and put my skills to the test.</p>
+                    <p> Well, Hello there, beautiful people. My name is Stephanie Marie. I am a Southern California native. 
+            I am a full-stack developer, I have received my training through the UC Berkeley extension program. 
+            I've been trained in HTML, CSS, Javascript, and node thus far. If you give yourself no other option but
+             to succeed then there will be no other possibility but success. Carry yourself forward with this mindset 
+             and you will achieve anything you set your mind to. All is mental change your thoughts and you will change your life. 
+             Gratitude doesn't arise because you are happy, you become truly happy when you are grateful. No matter how much you accomplish 
+             in life, without the touch of gratitude true contentment is not possible. I have always been drawn to computers since I was 9 years old.</p>
                 </Cell>
 
                 <Cell col={6}>
