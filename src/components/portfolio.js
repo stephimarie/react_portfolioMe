@@ -11,6 +11,12 @@ class Portfolio extends Component {
                     <Card shadow={0} style={{width: '320px', margin: 'auto', height: '320px'}}>
                         <img src={Img1}/>
                         <CardTitle style={{color: 'black', height: '100px'}}>Yoda-Me-Astrology</CardTitle>
+                        <CardActions border>
+                            <a href="https://github.com/stephimarie/Yoda_me_astrology" rel="noreferrer" target="_blank">Repo link</a>
+                            <br />
+                            <br />
+                            <a href="https://stephimarie.github.io/Yoda_me_astrology/" rel="noreferrer" target="_blank">Live link</a>
+                        </CardActions>
                     </Card>
                 </Cell>
                 </Grid>      
