@@ -1,29 +1,45 @@
 //import {Nav, Form, FormControl, Button} from 'react-bootstrap';
 import React, { Component } from 'react';
+import './App.css';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
+
 
 class Navbar extends Component{
     render() {
         return (
-            <>
-            {/* <Navbar bg="light" variant="light">
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
-                <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-primary">Search</Button>
-                </Form>
-            </Navbar> */}
-
-
-            </>
-        );
-
-    }
-    
+      <div className="demo-big-content">
+        <Layout>
+          <Header className="header" title="SM" scroll>
+           <Navigation>
+             <Link to="/">Home</Link >
+             <Link to="/contact">Contact</Link >
+             <Link to="/portfolio">Portfolio</Link>
+           </Navigation>
+          </Header>
+          <Drawer title="Menu">
+            <Navigation>
+              <Link to="/">Home</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/portfolio">Portfolio</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main/>
+          </Content>
+          <Footer size="mega">
+            <FooterSection type="middle">
+              <FooterLinkList>
+                <p>Stephanie Marie&copy;</p>
+              </FooterLinkList>
+            </FooterSection>
+          </Footer>
+        </Layout>
+      </div>
+    );
+  };
 }
 
 export default Navbar; 
