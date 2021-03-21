@@ -9,7 +9,7 @@ const Main = () => (
     <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
     </Switch>
 );
 
