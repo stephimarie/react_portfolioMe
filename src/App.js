@@ -9,7 +9,16 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
+        <Layout>
+          <Header className="header" title="SM" scroll>
+           <Navigation>
+             <Link to="/">Home</Link >
+             <Link to="/contact">Contact</Link >
+             <Link to="/portfolio">Portfolio</Link>
+           </Navigation>
 
+          </Header>
+        </Layout>
       </div>
     );
   };
