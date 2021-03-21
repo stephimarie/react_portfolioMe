@@ -1,19 +1,18 @@
+import React, { Component } from 'react';
 import './App.css';
-// import Button from 'react-bootstrap/Button';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Contacts from './pages/contact';
 
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
 
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-        <Navbar />
-      </header>
-    </div>
-  );
+      </div>
+    );
+  };
 }
 
 export default App;
