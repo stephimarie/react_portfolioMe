@@ -10,24 +10,26 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header className="header" title="SM" scroll>
-           <Navigation>
-             <Link to="/">Home</Link >
-             <Link to="/contact">Contact</Link >
-             <Link to="/portfolio">Portfolio</Link>
-           </Navigation>
+            <Navigation>
+              <Link to="/">Home</Link >
+              <Link to="/contact">Contact</Link >
+              <Link to="/portfolio">Portfolio</Link>
+
+            </Navigation>
           </Header>
           <Drawer title="Menu">
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/contact">Contact</Link>
               <Link to="/portfolio">Portfolio</Link>
+
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
-            <Main/>
+              <div className="page-content" />
+              <Main/>
           </Content>
-          <Footer size="mega">
+  <Footer size="mega">
             <FooterSection type="middle">
               <FooterLinkList>
                 <p>Stephanie Marie&copy;</p>
