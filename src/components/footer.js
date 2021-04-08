@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom';
 import Contact from './contact';
 import Home from './home';
-import Portfolio from './portfolio';
+import Project from './project';
 
 
 const Footer = () => (

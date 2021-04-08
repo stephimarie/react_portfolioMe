@@ -11,7 +11,7 @@ class Portfolio extends Component {
             <Grid className= "portfolio-grid">
                 <Cell col={3}>
                     <Card shadow={0} style={{width: '320px', margin: 'auto', height: '320px'}}>
-                        <img src={Img1}/>
+                        <img src={Img1} alt="Project 1" />
                         <CardTitle style={{color: 'black', height: '100px'}}>Yoda-Me-Astrology</CardTitle>
                         <CardActions border>
                             <a href="https://github.com/stephimarie/Yoda_me_astrology" rel="noreferrer" target="_blank">Repo link</a>
@@ -23,7 +23,7 @@ class Portfolio extends Component {
                 </Cell>
                 <Cell col={3}>
                     <Card shadow={0} style={{width: '320px', margin: 'auto', height: '320px'}}>
-                        <img src={Img2} />
+                        <img src={Img2} alt="Password wizard"/>
                         <CardTitle style={{color: 'black', height: '100px'}}>Password_Wizard</CardTitle>
                         <CardActions border>
                             <a href="https://github.com/stephimarie/Password_Wizard" rel="noreferrer" target="_blank">Repo link</a>
@@ -36,7 +36,7 @@ class Portfolio extends Component {
                 </Cell>
                 <Cell col={3}>
                     <Card shadow={0} style={{width: '320px', margin: 'auto', height: '320px'}}>
-                        <img src={Img3} />
+                        <img src={Img3} alt="inhuman mystery"/>
                         <CardTitle style={{color: 'black', height: '100px'}}>Inhuman_Murder_Mystery</CardTitle>
                         <CardActions border>
                             <a href="https://github.com/stephimarie/inhumans" rel="noreferrer" target="_blank">Repo link</a>

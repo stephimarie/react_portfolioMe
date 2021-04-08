@@ -15,14 +15,14 @@ class Navbar extends Component{
            <Navigation>
              <Link to="/">Home</Link >
              <Link to="/contact">Contact</Link >
-             <Link to="/portfolio">Portfolio</Link>
+             <Link to="/project">Project</Link>
            </Navigation>
           </Header>
           <Drawer title="Menu">
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/contact">Contact</Link>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/project">Project</Link>
             </Navigation>
           </Drawer>
           <Content>
