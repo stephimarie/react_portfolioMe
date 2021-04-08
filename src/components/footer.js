@@ -9,7 +9,7 @@ const Footer = () => (
     <Footer size="mega">
     <FooterSection type="middle">
       <FooterLinkList>
-        <p>Stephanie Marie&copy;</p>
+        <p>Stephanie Marie &copy;</p>
       </FooterLinkList>
     </FooterSection>
   </Footer>
