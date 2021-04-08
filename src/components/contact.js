@@ -10,7 +10,7 @@ class About extends Component {
         <div className="about-body" >
             <Grid className="about-grid">
                 <Cell col={6}>
-                    <img style={{height:'250px', width:'200px', paddingTop:'20px', borderRadius:'50%' }} src={myImage} />
+                    <img style={{height:'250px', width:'200px', paddingTop:'20px', borderRadius:'50%' }} img src={myImage} alt="Resume" />
                     <h2 style={{fontFamily:'Times'}}>Stephanie Marie</h2>
                     <p> Well, Hello there, beautiful people. My name is Stephanie Marie. I am a Southern California native. 
             I am a full-stack developer, I have received my training through the UC Berkeley extension program. 
