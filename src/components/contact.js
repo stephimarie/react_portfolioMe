@@ -19,7 +19,7 @@ class About extends Component {
                 </Cell>
 
                 <Cell col={6}>
-                    <h3>Contact Me:</h3>
+                    <h3>Contact</h3>
                     <p><strong>Location:</strong> Los Angeles, CA </p>
                     <p><strong>Phone:</strong> (310) 623-2363</p> 
                     <p><strong>Email:</strong> info.mccandless@gmail.com</p>
