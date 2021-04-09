@@ -5,14 +5,14 @@ import Home from './home';
 import Project from './project';
 
 
-const Footer = () => (
-    <Footer size="mega">
-    <FooterSection type="middle">
-      <FooterLinkList>
-        <p>Stephanie Marie &copy;</p>
-      </FooterLinkList>
-    </FooterSection>
-  </Footer>
-);
+// const Footer = () => (
+//     <Footer size="mega">
+//     <FooterSection type="middle">
+//       <FooterLinkList>
+//         <p>Stephanie Marie &copy;</p>
+//       </FooterLinkList>
+//     </FooterSection>
+//   </Footer>
+// );
 
-export default Footer;
+// export default Footer;

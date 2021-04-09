@@ -5,12 +5,12 @@ import Home from './home';
 import Project from './project';
 
 
-const Main = () => (
-    <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/project" component={Project} />
-        <Route path="/contact" component={Contact} />
-    </Switch>
-);
+// const Main = () => (
+//     <Switch>
+//         <Route exact path="/" component={Home} />
+//         <Route path="/project" component={Project} />
+//         <Route path="/contact" component={Contact} />
+//     </Switch>
+// );
 
-export default Main;
+// export default Main;
