@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+import { Button } from './Button';
+import './home.css';
 
 function Home() {
     return (
