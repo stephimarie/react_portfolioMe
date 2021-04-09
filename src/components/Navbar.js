@@ -1,54 +1,55 @@
-import React, { useState } from 'react';
-import { link }  from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link }  from 'react-router-dom';
 import './Navbar.css'
-import { Button } from './Button.css'
+import { Button } from './Button'
 
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
-
+  
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
+  
     const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
+      if (window.innerWidth <= 960) {
+        setButton(false);
+      } else {
+        setButton(true);
+      }
     };
-
+  
     useEffect(() => {
-        showButton();
+      showButton();
     }, []);
-
+  
     window.addEventListener('resize', showButton);
-    
+  
     return (
-        <>
+          <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <link to="/" className="navbar-logo">
-                         SM <i class="fab fa-stripe-s"></i>
-                    </link>
+                    <Link to="/" className="navbar-logo">
+                         SM 
+                         <i class="fab fa-stripe-s"></i>
+                    </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
-                            </link>
+                            </Link>
                         </li>
                         <li className='nav-item'>
-                            <link to='/aboutme' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                                 About Me
-                            </link>
+                            </Link>
                         </li>
                         <li className='nav-item'>
-                            <link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                                 Portfolio 
-                            </link>
+                            </Link>
                         </li>
                         <li>
                             <Link 
