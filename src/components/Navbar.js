@@ -5,6 +5,7 @@ function Navbar() {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
     return (
         <>
             <nav className="navbar">
@@ -16,7 +17,11 @@ function Navbar() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        
+                        <li className='nav-item'>
+                            <link to='/' className='nav-links' onClick={closeMobileMenu}>
+                                Home
+                            </link>
+                        </li>
                     </ul>
                 </div>
             </nav>        
