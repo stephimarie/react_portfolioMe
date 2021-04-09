@@ -29,7 +29,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                         SM 
+                         Stephanie Marie
                          <i class="fab fa-stripe-s"></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
