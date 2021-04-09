@@ -26,9 +26,9 @@ function Navbar() {
   
     return (
           <>
-            <nav className="navbar">
-                <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+            <nav className='navbar'>
+                <div className='navbar-container'>
+                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                          Stephanie Marie
                          <i class="fab fa-stripe-s"></i>
                     </Link>
