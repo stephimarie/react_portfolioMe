@@ -1,5 +1,5 @@
-.home-container {
-  background: url('../images/PORTRAIT_COVER.jpeg') center center/cover no-repeat;
+.contact-container {
+  background: url('../images/img-2.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -10,29 +10,29 @@
   object-fit: contain;
 }
 
-.home-container > h1 {
+.contact-container > h1 {
   color: #fff;
-  font-size: 150px;
+  font-size: 100px;
   margin-top: -100px;
   font-family: 'Great vibes', Arial, Helvetica, sans-serif;
 }
 
-.home-container > p {
+.contact-container > p {
   margin-top: 18px;
   color: #fff;
-  font-size: 32px;
+  font-size: 20px;
   font-family: 'Rock salt','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
-.home-container > h5 {
+.contact-container > h5 {
   margin-top: 18px;
   color: #fff;
   font-size: 32px;
   font-family: 'Julius Sans One','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
-
+/* may have to change name  */
 .social-media {
   color: #fff;
   justify-self: start;
@@ -52,11 +52,11 @@
   width: 240px;
 }
 
-.home-btns {
+.contact-btns {
   margin-top: 32px;
 }
 
-.home-btns .btn {
+.contact-btns .btn {
   margin: 6px;
 }
 
@@ -65,19 +65,19 @@
 }
 
 @media screen and (max-width: 960px) {
-  .home-container > h1 {
+  .contact-container > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .home-container > h1 {
+  .contact-container > h1 {
     font-size: 50px;
     margin-top: -100px;
   }
 
-  .home-container > p {
+  .contact-container > p {
     font-size: 30px;
   }
 
