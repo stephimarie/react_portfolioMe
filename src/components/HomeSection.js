@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './home.css';
+import './homeSection.css';
 
-function Home() {
+function homeSection() {
     return (
         <div className='home-container'>
             <h1>Stephanie Marie</h1>
