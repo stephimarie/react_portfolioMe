@@ -45,6 +45,13 @@
     margin-bottom: 16px;
   }
 
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+
   .home-btns {
     margin-top: 32px;
   }
