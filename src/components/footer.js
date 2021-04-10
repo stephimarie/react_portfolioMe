@@ -1,10 +1,6 @@
 import React from 'react'
 import './Footer.css'
 
-        // <a href="https://github.com/stephimarie/Yoda_me_astrology" rel="noreferrer" target="_blank">Repo link</a>
-
-
-
 function Footer() {
     return (
       <div className='footer-container'>
