@@ -10,7 +10,7 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/inhuman_murder_mystery.png"
+                        src="images/inhuman_murder_mystery.jpg"
                         text="A new twist to the traditional murder mystery game. 
                         An exciting sim created every time you play just choose your character."
                         label='Game'
