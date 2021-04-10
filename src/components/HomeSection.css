@@ -25,6 +25,22 @@
       'Lucida Sans', Arial, sans-serif;
   }
 
+  .home-container > h5 {
+    margin-top: 18px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Julius Sans One','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .social-media {
+    margin-top: 18px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Julius Sans One','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
   .home-btns {
     margin-top: 32px;
   }
