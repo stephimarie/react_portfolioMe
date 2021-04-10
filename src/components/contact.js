@@ -1,9 +1,35 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import CardItem from './CardItem';
+
 import myImage from '../images/PORTRAIT_COVER.jpeg';
 import Resume from '../images/resume.png'
 
 
+function Contact() {
+    return (
+        <div className='cards'>
+            <h1>Contact</h1>
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
+                        <CardItem 
+                        src="../images/PORTRAIT_COVER.jpeg"
+                        text="Hello there, beautiful people.
+                          I am a full-stack developer, I have received my training through the UC Berkeley extension program. 
+                          I've been trained in HTML, CSS, Javascript, and node. If you give yourself no other option but
+                          to succeed then there will be no other possibility but success."
+                        label='Stephanie Marie'
+                        path='/'
+                        />
+                    </ul>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Contact
+ 
 // class About extends Component {
 //     render() {
 //     return (
