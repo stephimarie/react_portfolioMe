@@ -4,32 +4,6 @@ import './Footer.css'
 function Footer() {
     return (
       <div className='footer-container'>
-        <section className='footer-subscription'>
-          <p className='footer-subscription-heading'>
-            Follow me and feel free to reach out.
-          </p>
-        </section>
-
-        <div class='footer-links'>
-          <div className='footer-link-wrapper'>
-            <div class='footer-link-items'>
-              <h2>About Me</h2>
-              <Link to='/about'>About Me</Link>
-            </div>
-            <div class='footer-link-items'>
-              <h2>Contact Me</h2>
-              <Link to='/contact'>Contact</Link>
-            </div>
-          </div>
-          <div className='footer-link-wrapper'>
-            <div class='footer-link-items'>
-              <h2>Social Media</h2>
-              <Link to='/'>Linkedin</Link>
-              <Link to='/'>Github</Link>
-            </div>
-          </div>
-        </div>
-
         <section class='social-media'>
           <div class='social-media-wrap'>
             <div class='footer-logo'>
@@ -42,7 +16,7 @@ function Footer() {
             <div class='social-icons'>
               <Link
                 class='social-icon-link Linkedin'
-                to='/'
+                to='/https://www.linkedin.com/in/stephanie-mccandless-76869139/'
                 target='_blank'
                 aria-label='Linkedin'
               >
@@ -50,7 +24,7 @@ function Footer() {
               </Link>
               <Link
                 class='social-icon-link github'
-                to='/'
+                to='/https://github.com/stephimarie'
                 target='_blank'
                 aria-label='GitHub'
               >
