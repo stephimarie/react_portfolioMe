@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './homeSection.css';
+import './HomeSection.css';
 
 function homeSection() {
     return (
@@ -11,6 +11,8 @@ function homeSection() {
         </div>
     )
 }
+
+export default homeSection
 
 // class Home extends Component {
 //     render() {
