@@ -50,3 +50,8 @@
     padding-top: 67%;
     overflow: hidden;
   }
+
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
