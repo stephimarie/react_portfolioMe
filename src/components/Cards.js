@@ -1,5 +1,5 @@
 import React from 'react'
-import CardItems from './Carditems'
+import CardItems from './CardItems'
 
 function Cards() {
     return (
