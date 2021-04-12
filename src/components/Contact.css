@@ -17,10 +17,18 @@
   font-family: 'Great vibes', Arial, Helvetica, sans-serif;
 }
 
-.contact-container > p {
+.contact-container > h2 {
   margin-top: 18px;
   color: #fff;
   font-size: 20px;
+  font-family: 'Rock salt','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-container > p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 18px;
   font-family: 'Rock salt','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }

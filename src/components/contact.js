@@ -11,20 +11,24 @@ function Contact() {
     return (
         <div className='contact-container'>
             <h1>Stephanie Marie</h1>
-            <p>Full-Stack Developer</p>
-            <p>Hello there, beautiful people.
-                I am a full-stack developer, I have received my training through the UC Berkeley extension program. 
-                If you give yourself no other option but
-                to succeed then there will be no other possibility but success.</p>
+            <h2>Full-Stack Developer</h2>
             <h5>HTML/CSS | Bootstrap | JavaScript | React </h5>
-            {/* may have to change name */}
+
+                <p>Hello there, beautiful people.</p>
+                <p>I have received my training through the UC Berkeley extension program. </p>
+                <p>The fast pace program prepared me for an excited career as a software engineer and I can't wait. </p>
+                
+            <h5>Los Angeles | 310.623.2363 | info.mccandless@gmail.com  </h5>
                 <div className="social-media">
                     <a href="https://github.com/stephimarie" rel="noopener noreferrer" target="_blank">
                     <i class="fab fa-github" aria-hidden="true" />
                     </a>
                     <a href="https://www.linkedin.com/in/stephanie-mccandless-76869139/" rel="noopener noreferrer" target="_blank">
                     <i class="fab fa-linkedin" aria-hidden="true" />
-                    </a>
+                    </a>                  
+                </div>
+                <div>
+                    <a href={Resume} class="btn btn-primary btn-lg active" rel="noopener noreferrer" target="_blank" download="download">Download Resume</a>  
                 </div>
         </div>
     )
