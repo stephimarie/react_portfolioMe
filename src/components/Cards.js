@@ -17,7 +17,7 @@ function Cards() {
                         path='/portfolio'
                         />
                            <CardItem 
-                        src="../images/inhuman_murder_mystery.jpg"
+                        src="../images/roots.png"
                         text="A new Community that you will want to grow with. 
                         Learn a new language with friends from all over the world."
                         label='Languages'
@@ -33,7 +33,7 @@ function Cards() {
                         path='/portfolio'
                         />
                            <CardItem 
-                        src="../images/PORTRAIT_COVER.jpeg"
+                        src="../images/workoutdash.png"
                         text="A great way to keep you health and on track to reach your goals."
                         label='Workout tracker'
                         path='/portfolio'
@@ -42,12 +42,6 @@ function Cards() {
                         src="../images/password-wizard.png"
                         text="Let the wizard create your new password its a fun way to create a new password."
                         label='Password'
-                        path='/portfolio'
-                        />
-                           <CardItem 
-                        src="../images/inhuman_murder_mystery.jpg"
-                        text="TBD"
-                        label='TBD'
                         path='/portfolio'
                         />
                     </ul>
