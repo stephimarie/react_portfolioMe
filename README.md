@@ -1,10 +1,12 @@
-# Unit 20 React Homework: React Portfolio
+# React Portfolio
 
-Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+## <img src="https://img.shields.io/badge/LICENSE-mit-green"/>
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+## Description:
+* Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-## Requirements
+
+## Requirements:
 
 * Updated portfolio featuring 6 total projects
 
@@ -22,63 +24,26 @@ If you are opting out of career services, this is *still a required assignment*.
 
 * Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
-* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
+## Screen Shots:
 
-### Updated Portfolio
-
-Your updated site should still have all of the content it previously had:
-
-* Your name
-
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
-
-* A link to a PDF of your resume with updated projects
-
-* A list of projects. For each project, make sure you have the following:
-
-  * Project title
-
-  * Link to the deployed version
-
-  * Link to the GitHub repository
-
-  * GIF or screenshot of the deployed application
+<img width="2048" alt="Screen Shot 2021-03-03 at 7 55 42 PM (2)" src="https://user-images.githubusercontent.com/68761490/109909226-92feb900-7c5a-11eb-9ea7-6060ed910685.png">
 
 
-#### Design
+## BuiltWith:
 
-As with the previous portfolio homework, "good" design is subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
+* HTML5/CSS
+* React
 
-* Mobile-first design
+## Installation:
 
-* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-* If you want to go above and beyond, try using animations and react component libraries. Note 
-that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
-
-### React
-
-Additionally, this new portfolio should be created using React.
-
-At a minimum, your portfolio should include the following:
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-* **Important**: If you use React Router, you will **NOT** be able to use the `<BrowserRouter>` component on GitHub Pages. Read the [GitHub note on client-side routing](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) and the [React Router documentation on HashRouter](https://reactrouter.com/web/api/HashRouter) for more information.
+`git clone URL`
+`npm install`
+ `npm start`
 
 
-### Updated LinkedIn Profile 
+## Npm:
+* React-MDL 
+* React-router-dom
 
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
