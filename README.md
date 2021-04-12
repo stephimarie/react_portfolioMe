@@ -26,7 +26,8 @@
 
 ## Screen Shots:
 
-<img width="2048" alt="Screen Shot 2021-03-03 at 7 55 42 PM (2)" src="https://user-images.githubusercontent.com/68761490/109909226-92feb900-7c5a-11eb-9ea7-6060ed910685.png">
+<img width="1430" alt="Screen Shot 2021-04-11 at 10 47 57 PM" src="https://user-images.githubusercontent.com/71304781/114346275-0af0b680-9b18-11eb-8a9e-65a8e976ca2b.png">
+
 
 
 ## BuiltWith:
